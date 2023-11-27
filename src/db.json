@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Thẻ tín dụng",
+            "description": "Đa dạng lựa chọn theo phong cách chỉ tiêu",
+            "image": "https://i.ibb.co/1JBwvVN/credit-card.png"
+        },
+        {
+            "id": 2,
+            "name": "Vay linh hoạt",
+            "description": "Giải ngân tức thì, tiêu dùng linh hoạt",
+            "image": "https://i.ibb.co/W3YptNC/borrow-money.png"
+        },
+        {
+            "id": 3,
+            "name": "Mua trước trả sau",
+            "description": "Chuyển đổi trả góp, nhẹ ví chi tiêu",
+            "image": "https://i.ibb.co/YfrbMwK/buy-first.png"
+        },
+        {
+            "id": 4,
+            "name": "Tiền nhanh",
+            "description": "Nhận khoản vay dự phòng, chủ động và nhanh chóng",
+            "image": "https://i.ibb.co/NLvcFyf/fast-money.png"
+        },
+        {
+            "id": 5,
+            "name": "Tài khoản thanh toán M-Pro",
+            "description": "Siêu miễn phí, hoàn tiền tới 3,6 triệu đồng",
+            "image": "https://i.ibb.co/2qbnFkD/mpro.png"
+        },
+        {
+            "id": 6,
+            "name": "Bảo hiểm",
+            "description": "Mua bảo hiểm trực tuyến dễ dàng chỉ với vài thao tác",
+            "image": "https://i.ibb.co/PwkW76p/insurance.png"
+        }
+    ]
+}
