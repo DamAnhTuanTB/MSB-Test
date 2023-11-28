@@ -5,7 +5,7 @@ This project is a web application built using ReactJS in front-end.
 - ***Homepage***: This is the first page that appears when users access the website. Here information is displayed such as header, banner, product list, footer,...
 - ***Login***: Allow users to log in to the system.
 - ***Submit a consultation request***: Allows users to submit information to request consultation.
-- ***Account Management***: This is the page that manages users' personal information as well as information products.
+- ***Account management***: This is the page that manages users' personal information as well as information products.
 
 ### **2. Main Technology Used**
 + **ReactJS**: ReactJS is a JavaScript library for building user interfaces, known for its component-based structure, reusability, and efficient rendering, simplifying the development of interactive web applications. 
@@ -22,7 +22,7 @@ This project is a web application built using ReactJS in front-end.
 > **Prerequisites**: Before you begin, make sure you have the following technologies installed on your personal computer: git, node.js. npm
 -  Download the project to your personal computer:
 ```bash
-git clone 
+git clone https://github.com/DamAnhTuanTB/MSB-Test.git
 ```
 - Open the downloaded project using ide software, type the following command to install the necessary packages:
 ```bash
@@ -34,6 +34,7 @@ npm start
 ```
 ### **4. Online Link To Use**
 In addition to using the system locally as in part 3, you can access the following link to use the system: 
+https://msb-test.vercel.app
 
 ### **5. Detailed Instructions On How To Use The Features**
 ##### Homepage

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useQuery } from "react-query";
 import RightArrows from "../../../../assets/images/right-arrows.svg";
+import productsData from "../../../../db.json";
 import { productService } from "../../../../services/productService";
 import {
   Content,
@@ -22,10 +23,15 @@ interface Product {
 }
 
 export default function Products() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<any>([]);
   useQuery("get-list-products", () => productService.getListProducts(), {
     onSuccess: (res) => {
       setProducts(res.data);
+    },
+    onError: () => {
+      // In case of server failure, temporarily mount the product data
+      // You can comment this line when testing locally
+      setProducts(productsData.products);
     },
   });
 
